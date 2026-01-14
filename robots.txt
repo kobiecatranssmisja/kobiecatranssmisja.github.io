@@ -1,0 +1,15 @@
+# robots.txt for Stowarzyszenie Kobieca Transsmisja
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Disallow crawling of common non-content directories (if they exist)
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /dist/
+Disallow: /build/
+
+# Sitemap location (add when sitemap.xml is created)
+# Sitemap: https://kobiecatranssmisja.github.io/sitemap.xml
